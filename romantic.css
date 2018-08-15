@@ -308,6 +308,10 @@ h2:hover {
 	.author,.title {
 		display:none
 	}
+	h1 {
+	float:left;
+    font-size: 2em;
+}
     .gallery {
         margin: 20px auto 0;
     } 
@@ -350,6 +354,10 @@ h2:hover {
 	.author,.title {
 		display:none
 	}
+	h1 {
+	float:left;
+    font-size: 2em;
+}
     .gallery {
         margin: 20px auto 0;
     } 
