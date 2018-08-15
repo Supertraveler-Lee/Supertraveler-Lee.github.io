@@ -302,16 +302,9 @@ h2:hover {
 /* Viewport >= 420px */
 
 @media (max-width:667px) and (min-width: 375px) {
-	.poem {
-		display:none;
-	}
-	.author,.title {
+	.author,.title,.logo,.poem {
 		display:none
 	}
-	h1 {
-	float:left;
-    font-size: 1em;
-}
     .gallery {
         margin: 20px auto 0;
     } 
@@ -348,16 +341,9 @@ h2:hover {
 /* Viewport >= 620px */
 
 @media (max-width:736px) and (min-width: 414px) {
-	.poem {
-		display:none;
-	}
-	.author,.title {
+	.author,.title,.logo,.poem {
 		display:none
 	}
-	h1 {
-	float:left;
-    font-size: 1em;
-}
     .gallery {
         margin: 20px auto 0;
     } 
