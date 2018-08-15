@@ -381,7 +381,8 @@ body {
 
 @media (max-width:1220px) and (min-width: 850px) {
 	.right{
-		float:left
+		float:left;
+		margin-right: 200px;
 	}
 	.poem {
 		margin-top:10px;
@@ -393,6 +394,9 @@ body {
 	.author {
 		margin-top:25px;
 	}
+.gallery li:nth-child(47) {
+	display:none;
+}
     .gallery {
         margin: 50px auto 0;
     } 
@@ -401,7 +405,7 @@ body {
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     }
     .gallery li {
-        width: 25%;
+        width: 33%;
 	float: left;
         height: 50%;
 	margin-bottom: 10px;
@@ -428,7 +432,7 @@ body {
 }
 /* Viewport >= 800px */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1210px) {
     .gallery {
         margin: 50px auto 0;
     } 
