@@ -1759,3 +1759,26 @@ body {
   }
 }
 
+@media screen and (min-width: 1220px) {
+	.happy3{
+	font-size: 150%;
+}
+.container{
+	height: 100%;
+}
+	.happy2{
+	font-size: 380%;
+}
+}
+@media (max-height:812px) and (min-height: 736px) {
+	.container {
+	height:100%;
+	margin: 0 0 15px 0;
+	}
+	.happy2{
+		font-size: 220%
+	}
+	.happy3{
+		font-size: 110%
+	}
+}
